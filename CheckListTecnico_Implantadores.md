@@ -50,7 +50,7 @@
 * **Rotina 616:** Emissão de Boleto e remessa, referente a NFSAIDA que foi gerada atravez do pedido de venda. 1 - Imprmir o boleto bancário, e verificar se os dados consistem com a NFSAIDA emitida. 2 - Gerar a remessa e constar o boleto gerado anteriormente na mesma.
 * **Rotina 701**: Realizar 'Acerto de Caixa', verificar funcionalidade das abas 'Romaneio' e 'Resumo/Fechamento'.
 * **Rotina 305:** Implantador deverá gerar outra venda *Telemarketing*, para testar o Cancelamento/Inutilização da mesma. Assim verificando também: comissão, estoque, limite de crédito e títulos.
-* 
+
 ### 1.4º - Outras Verificações
 
 * **Rotina 115:**** Verificar se as cobranças corretas estão como '**APRAZO**'
