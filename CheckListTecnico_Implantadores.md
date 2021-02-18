@@ -60,4 +60,4 @@
 ## 2º - Verificação de dados necessários (com ou sem migração)
 
 * Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
-* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL [(Link) (https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_PLANOPGTO.sql)
+* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_PLANOPGTO.sql)
