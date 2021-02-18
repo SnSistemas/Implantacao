@@ -59,4 +59,4 @@
 
 ## 2º - Verificação de dados necessários (com ou sem migração)
 
-* Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota [Link](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
+* Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota. ([LINK])(https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
