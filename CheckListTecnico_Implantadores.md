@@ -62,3 +62,16 @@
 
 * Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
 * Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_PLANOPGTO.sql)
+* Verificar o valor mínimo de venda da tabela COBRANCA, se a mesma estiver NULL, jogar ZERO. (Falta Link)
+* Verificar se existe linhas na tabela PARAMETROFV do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
+* Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
+* Verificar se existe EMPRESA_COMPLEMENTOS para todas as empresas. (Falta Link)
+* Verificar se existe COBRANCA_COMPLEMENTOS para todas as cobranças. (Falta Link)
+* Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. (Falta Link)
+* Verificar os campos na tabela PESSOA: VLLIMITECRED, VLLIMITEUTIZADO, VLLIMITEDISPONIVEL, TIPOMOTORISTA, não devem ficar NULL. (Falta Link)
+* Verificar campos NULL nas tabelas: PRECO_ESTOQUE, PRECOTABELA, PRECOREGIAO. (Falta Link)
+* Verificar PRECOMINIMO migrado nas tabelas: PRECOTABELA, PRECOREGIAO. (Falta Link).
+* Verificar na tabela PRODUTO se existe algum produto com codigo 0, caso tenha, deverá ser removido. (Falta Link).
+* Verificar na tabela PLANOPGTO se oscódigos estão corretos e não com "SALTOS" na numeração.
+* Verificar o campo ULTNSU da EMPRESA.
+* Colocar senha padrão para Administrador na tabela PESSOA. (Falta Link).
