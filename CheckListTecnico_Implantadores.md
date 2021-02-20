@@ -75,3 +75,8 @@
 * Verificar na tabela PLANOPGTO se oscódigos estão corretos e não com "SALTOS" na numeração.
 * Verificar o campo ULTNSU da EMPRESA.
 * Colocar senha padrão para Administrador na tabela PESSOA. (Falta Link).
+* Na tabela PESSOA, verificar se existem IE nulas, caso existam deverão ser setadas como ISENTO. (Falta Link).
+* Na tabela PRODUTO, verificar **Fator de Conversão**.
+* Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. (Falta Link).
+* Verificar se o CLIENTEirá utilizar o **Banco do Brasil CNAB 240**, caso utilize rodar Script. (Falta Link).
+* Rodar Script caractere especial nas tabelas PESSOA/PRODUTO. (Falta Link).
