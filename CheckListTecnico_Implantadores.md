@@ -67,7 +67,7 @@
 * Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_VENDEDORCOMPLEMENTOS.sql)
 * Verificar se existe EMPRESA_COMPLEMENTOS para todas as empresas. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_EMPRESACOMPLEMENTOS.sql)
 * Verificar se existe COBRANCA_COMPLEMENTOS para todas as cobranças. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_COBRANCASCOMPLEMENTOS.sql)
-* Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. (Falta Link)
+* Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_CONTASPAGARRECEBER_CAMPOS_NULL.sql)
 * Verificar campos NULL nas tabelas: PRECO_ESTOQUE, PRECOTABELA, PRECOREGIAO. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_CAMPOS_NULL_ESTOQUE_PRECIFICACAO.sql)
 * Verificar PERDESCONTO migrado nas tabelas (PRECOTABELA, PRECOREGIAO), caso não tenha calculado o preço mínimo, deverá executar o Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_PRECOMINIMO.sql)
 * Verificar na tabela PRODUTO se existe algum produto com codigo 0, caso tenha, deverá ser removido. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/DELETAR_PRODUTO_0.sql)
