@@ -1,4 +1,4 @@
-# Check List Técnico Implantação
+# Check List Técnico Implantação S7ERP (VERSÃO - 1.0)
 
 ## 1º - Processos Básicos que deverão ser testados
 
