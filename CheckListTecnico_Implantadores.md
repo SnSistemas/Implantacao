@@ -32,8 +32,8 @@
 * **OBS:** Como houve desdobramento do título para o cliente, o sistema não aceitará o cancelamento da NF-e. Neste caso, implantador deverá realizar uma devolução da NFSAIDA com formulário próprio (rotinas 201, 202). (Deverá verificar a transmissão e autorizada a NFENTRADA em Ambiente de Homologação)
 * **Rotina 802:** Conferir a volta do produto para o estoque (rotina 802) após a devolução da NFSAIDA. Utilizar 'Extrato de Movimentação' e aba 'Posição do Estoque'.
 * **Rotina 307:** Conferir se gerou comissão negativa.
-* **Rotina 305:** Implantador deverá gerar outra Nota, para testar o Cancelamento/Inutilização da mesma. Assim verificando também: comissão, estoque, limite de crédito e títulos.
-* **Rotina 701**: Realizar 'Acerto de Caixa', verificar funcionalidade das abas 'Romaneio' e 'Resumo/Fechamento'.
+* **Rotina 305:** Implantador deverá gerar outra Nota para testar o Cancelamento/Inutilização da mesma. Assim verificando também: comissão, estoque, limite de crédito e títulos.
+* **Rotina 701**: Implantador deverá gerar o Nota para realizar 'Acerto de Caixa' (Venda BALCÃO), verificar funcionalidade das abas 'Romaneio' e 'Resumo/Fechamento'.
 
 ### 1.3º - Realização de Vendas Telemarketing para Cliente cadastrado
 
@@ -48,7 +48,7 @@
 * **Rotina 611:** Conferir 'Limite de Crédito' do cliente.
 * **Rotina 608:** Conferir a gravação do título gerado para o cliente no CONTASARECEBER.
 * **Rotina 616:** Emissão de Boleto e remessa, referente a NFSAIDA que foi gerada atravez do pedido de venda. 1 - Imprmir o boleto bancário, e verificar se os dados consistem com a NFSAIDA emitida. 2 - Gerar a remessa e constar o boleto gerado anteriormente na mesma.
-* **Rotina 701**: Realizar 'Acerto de Caixa', verificar funcionalidade das abas 'Romaneio' e 'Resumo/Fechamento'.
+* **Rotina 701**: Realizar 'Acerto de Caixa' para venda Telemarketing, verificar funcionalidade das abas 'Romaneio' e 'Resumo/Fechamento'.
 * **Rotina 305:** Implantador deverá gerar outra venda *Telemarketing*, para testar o Cancelamento/Inutilização da mesma. Assim verificando também: comissão, estoque, limite de crédito e títulos.
 
 ### 1.4º - Outras Verificações
