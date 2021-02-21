@@ -64,7 +64,7 @@
 * Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar o valor mínimo de venda da tabela COBRANCA, se a mesma estiver NULL, jogar ZERO. (Falta Link)
 * Verificar se existe linhas na tabela PARAMETROFV do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
-* Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
+* Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_VENDEDORCOMPLEMENTOS.sql)
 * Verificar se existe EMPRESA_COMPLEMENTOS para todas as empresas. (Falta Link)
 * Verificar se existe COBRANCA_COMPLEMENTOS para todas as cobranças. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_COBRANCASCOMPLEMENTOS.sql)
 * Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. (Falta Link)
