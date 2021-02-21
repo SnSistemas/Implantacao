@@ -5,7 +5,7 @@
 ### 1.1º - Em ambiente de Homologação (Arquivo config.xml com a tag tpAmb = 2):
 
 * **Menu Principal:** Verificar se Logo da empresa está visível.
-* **Rotina 101:** Cadastrar um novo Cliente (Utilize para gerar CPF: https://www.4devs.com.br/gerador_de_cpf).
+* **Rotina 101:** Cadastrar um novo Cliente (Utilize para gerar CPF: [(Link)](https://www.4devs.com.br/gerador_de_cpf)).
 * **Rotina 611:** Cadastrar Limite de Crédito para o Cliente novo (Pode ser de R$ 5.000,00)
 * **Rotina 113:** Cadastrar um novo Produto (pode ser duplicado um produto que já seja utilizado na base do cliente).
 * **Rotina 113:** Definir os Grupos de Tributação para o produto novo.
@@ -68,14 +68,14 @@
 * Verificar se existe EMPRESA_COMPLEMENTOS para todas as empresas. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_EMPRESACOMPLEMENTOS.sql)
 * Verificar se existe COBRANCA_COMPLEMENTOS para todas as cobranças. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/CRIAR_COBRANCASCOMPLEMENTOS.sql)
 * Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. (Falta Link)
-* Verificar campos NULL nas tabelas: PRECO_ESTOQUE, PRECOTABELA, PRECOREGIAO. (Falta Link)
+* Verificar campos NULL nas tabelas: PRECO_ESTOQUE, PRECOTABELA, PRECOREGIAO. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_CAMPOS_NULL_ESTOQUE_PRECIFICACAO.sql)
 * Verificar PERDESCONTO migrado nas tabelas (PRECOTABELA, PRECOREGIAO), caso não tenha calculado o preço mínimo, deverá executar o Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_PRECOMINIMO.sql)
-* Verificar na tabela PRODUTO se existe algum produto com codigo 0, caso tenha, deverá ser removido. (Falta Link).
+* Verificar na tabela PRODUTO se existe algum produto com codigo 0, caso tenha, deverá ser removido. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/DELETAR_PRODUTO_0.sql)
 * Verificar na tabela PLANOPGTO se os códigos estão corretos e não com "SALTOS" na numeração.
-* Verificar o campo ULTNSU da EMPRESA.
-* Colocar senha padrão para Administrador na tabela PESSOA. (Falta Link).
-* Na tabela PESSOA, verificar se existem IE nulas, caso existam deverão ser setadas como ISENTO. (Falta Link).
+* Verificar o campo ULTNSU da EMPRESA, este campo corresponde a busca do MDE (Rotina 206).
+* Colocar senha padrão para Administrador na tabela PESSOA. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/DEFINIR_SENHA_PADRAO_ADMNISTRADOR.sql)
+* Na tabela PESSOA, verificar se existem IE nulas, caso existam deverão ser setadas como ISENTO. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_IE_NULL_PESSOA.sql)
 * Na tabela PRODUTO, verificar **Fator de Conversão**.
 * Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar se o CLIENTE irá utilizar o **Banco do Brasil CNAB 240**, caso utilize rodar Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/UPDATE_CXBANCO_BB240.sql)
-* Rodar Script caractere especial nas tabelas PESSOA/PRODUTO. (Falta Link).
+* Rodar Script caractere especial nas tabelas PESSOA/PRODUTO. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REMOVER_CARACTERES_EPECIAIS.sql)
