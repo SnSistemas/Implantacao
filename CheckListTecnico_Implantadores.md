@@ -77,7 +77,6 @@
 * Colocar senha padrão para Administrador na tabela PESSOA. (Falta Link).
 * Na tabela PESSOA, verificar se existem IE nulas, caso existam deverão ser setadas como ISENTO. (Falta Link).
 * Na tabela PRODUTO, verificar **Fator de Conversão**.
-* Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. [(Link)]
-(https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
+* Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar se o CLIENTE irá utilizar o **Banco do Brasil CNAB 240**, caso utilize rodar Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/UPDATE_CXBANCO_BB240.sql)
 * Rodar Script caractere especial nas tabelas PESSOA/PRODUTO. (Falta Link).
