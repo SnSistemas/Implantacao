@@ -61,7 +61,7 @@
 ## 2º - Verificação de dados necessários (com ou sem migração)
 
 * Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
-* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL  [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
+* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar o valor mínimo de venda da tabela COBRANCA, se a mesma estiver NULL, jogar ZERO. (Falta Link)
 * Verificar se existe linhas na tabela PARAMETROFV do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
 * Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
