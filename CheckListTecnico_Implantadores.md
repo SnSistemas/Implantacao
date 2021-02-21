@@ -61,7 +61,7 @@
 ## 2º - Verificação de dados necessários (com ou sem migração)
 
 * Verificar na tabela PESSOA os campos de (NOME, FANTASIA, ENDERECO, COMPLEMENTO, BAIRRO, CODCIDADE) se estão NULL, pois impedem a transmissão da nota. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/BUSCAR_PESSOA_NULL.sql)
-* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/VERIFICAR_PLANOPGTO.sql)
+* Verificar no Plano de Pagamento os campos de BIGDECIMAL, se existe algum campo NULL  [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar o valor mínimo de venda da tabela COBRANCA, se a mesma estiver NULL, jogar ZERO. (Falta Link)
 * Verificar se existe linhas na tabela PARAMETROFV do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
 * Verificar se existe linhas na tabela VENDEDOR_COMPLEMENTOS do vendedor migrado, se não existir, deverá ser criadas manualmente. (Falta Link)
@@ -70,13 +70,14 @@
 * Verificar nas tabelas CONTASARECEBER/CONTASAPAGAR os campos (DTVENCIMENTO, DTLANCAMENTO, VALOR, CODCOBRANCA, DTVENCIMENTOORIGINAL, VLJURO, VLDESCONTO) não deverão estar NULL. (Falta Link)
 * Verificar os campos na tabela PESSOA: VLLIMITECRED, VLLIMITEUTIZADO, VLLIMITEDISPONIVEL, TIPOMOTORISTA, não devem ficar NULL. (Falta Link)
 * Verificar campos NULL nas tabelas: PRECO_ESTOQUE, PRECOTABELA, PRECOREGIAO. (Falta Link)
-* Verificar PRECOMINIMO migrado nas tabelas: PRECOTABELA, PRECOREGIAO. (Falta Link).
+* Verificar PERDESCONTO migrado nas tabelas (PRECOTABELA, PRECOREGIAO), caso não tenha calculado o preço mínimo, deverá executar o Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_PRECOMINIMO.sql)
 * Verificar na tabela PRODUTO se existe algum produto com codigo 0, caso tenha, deverá ser removido. (Falta Link).
-* Verificar na tabela PLANOPGTO se oscódigos estão corretos e não com "SALTOS" na numeração.
+* Verificar na tabela PLANOPGTO se os códigos estão corretos e não com "SALTOS" na numeração.
 * Verificar o campo ULTNSU da EMPRESA.
 * Colocar senha padrão para Administrador na tabela PESSOA. (Falta Link).
 * Na tabela PESSOA, verificar se existem IE nulas, caso existam deverão ser setadas como ISENTO. (Falta Link).
 * Na tabela PRODUTO, verificar **Fator de Conversão**.
-* Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. (Falta Link).
+* Verificar se o tipo de calculo veio certo da migração na tabela PESSOA. [(Link)]
+(https://github.com/SnSistemas/Implantacao/blob/main/Scripts/REPROCESSAR_TIPOCALCULO.sql)
 * Verificar se o CLIENTE irá utilizar o **Banco do Brasil CNAB 240**, caso utilize rodar Script. [(Link)](https://github.com/SnSistemas/Implantacao/blob/main/Scripts/UPDATE_CXBANCO_BB240.sql)
 * Rodar Script caractere especial nas tabelas PESSOA/PRODUTO. (Falta Link).
